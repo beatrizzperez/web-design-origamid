@@ -53,8 +53,6 @@ p{
 
 }
 
-
-
 /* header */
 .header{
     position: fixed;
@@ -189,4 +187,26 @@ p{
 
 .call p{
     margin-bottom: 15px;
+}
+
+
+/*portifolio*/
+
+.portifolio{
+    width: 100%;
+    background: #000;
+    padding: 40px 0 40px 0;
+}
+
+.portifolio .subtitulo{
+    color: #fec63e;
+    padding: auto;
+}
+.portifolio .subtitulo:after{
+    color: #fec63e;
+    padding: auto;
+}
+.portifolio .subtitulo:before{
+    color: #fec63e;
+    padding: auto;
 }
