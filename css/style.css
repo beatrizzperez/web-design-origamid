@@ -203,10 +203,29 @@ p{
     padding: auto;
 }
 .portifolio .subtitulo:after{
-    color: #fec63e;
-    padding: auto;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fec63e;
+    margin: 15px auto 10px auto;
+    margin-bottom: 40px;
 }
 .portifolio .subtitulo:before{
-    color: #fec63e;
-    padding: auto;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fec63e;
+    margin: 15px auto 10px auto;
+    margin-bottom: 10px;
 }
+
+.portifolio-itens li:last-child{
+    margin-top: 20px;
+}
+
+.portifolio .call p{
+    color: #fff;
+}
+
